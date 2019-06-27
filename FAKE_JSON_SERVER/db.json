@@ -1,0 +1,23 @@
+{
+    "books":[
+
+        {
+            "id":1,
+            "title":"Jungle book",
+            "rating":7.9
+
+        },
+        {
+            "id":2,
+            "title":"LOTR",
+            "rating":7.6
+
+        },
+        {
+            "id":3,
+            "title":"Harry Potter",
+            "rating":8.1
+
+        }
+    ]
+}
