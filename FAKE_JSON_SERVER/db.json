@@ -1,23 +1,29 @@
 {
-    "books":[
-
-        {
-            "id":1,
-            "title":"Jungle book",
-            "rating":7.9
-
-        },
-        {
-            "id":2,
-            "title":"LOTR",
-            "rating":7.6
-
-        },
-        {
-            "id":3,
-            "title":"Harry Potter",
-            "rating":8.1
-
-        }
-    ]
+  "books": [
+    {
+      "id": 1,
+      "title": "Jungle book",
+      "rating": 7.9
+    },
+    {
+      "id": 2,
+      "title": "LOTR",
+      "rating": 7.6
+    },
+    {
+      "title": "Harry Potter",
+      "rating": "8.7",
+      "id": 3
+    },
+    {
+      "title": "Green Mile",
+      "rating": "7.6",
+      "id": 4
+    },
+    {
+      "title": "1984",
+      "rating": "7.9",
+      "id": 5
+    }
+  ]
 }
