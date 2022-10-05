@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server --watch db.json"
+    "json:server": "json-server --watch db.json",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.15.0"
-  }
+    "json-server": "^0.15.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
